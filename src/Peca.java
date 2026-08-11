@@ -5,7 +5,6 @@ public class Peca {
     public Peca(String nome, String descricao) {
         this.nome = nome;
         this.descricao = descricao;
-       
     }
 
     public String getNome() {
