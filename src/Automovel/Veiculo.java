@@ -1,3 +1,4 @@
+package Automovel;
 public class Veiculo {
    
     private String modelo;

@@ -1,3 +1,4 @@
+package Automovel;
 public class Peca {
     private String nome;
     public String descricao;

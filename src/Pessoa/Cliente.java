@@ -1,3 +1,4 @@
+package Pessoa;
 public class Cliente extends Pessoa {
     private String dataNascimento;
     private String email;
