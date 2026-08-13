@@ -1,5 +1,7 @@
 package Pessoa;
-public class Pessoa {
+
+public abstract class Pessoa {
+
     private String nome;
     private String cpf;
     private String telefone;
@@ -44,8 +46,14 @@ public class Pessoa {
         this.endereco = endereco;
     }
 
+   //Guedes falei pro chat deixar esse overide mais bonitinho, mas se quiser mudar de volta pode também
     @Override
     public String toString() {
-        return "Pessoa{nome='" + nome + '\'' + ", cpf='" + cpf + '\'' + ", telefone='" + telefone + '\'' + ", endereco='" + endereco + '\'' + '}';
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", endereco='" + endereco + '\'' +
+                '}';
     }
 }

@@ -1,6 +1,7 @@
 import Pessoa.Pessoa;
 
 public class Funcionario extends Pessoa {
+
     private String cargo;
     private double salario;
 
@@ -28,6 +29,13 @@ public class Funcionario extends Pessoa {
 
     @Override
     public String toString() {
-        return "Funcionario{" + "nome='" + getNome() + '\'' + ", cpf='" + getCpf() + '\'' + ", telefone='" + getTelefone() + '\'' + ", endereco='" + getEndereco() + '\'' + ", cargo='" + cargo + '\'' + ", salario=" + salario + '}';
+        return "Funcionario{" +
+                "nome='" + getNome() + '\'' +
+                ", cpf='" + getCpf() + '\'' +
+                ", telefone='" + getTelefone() + '\'' +
+                ", endereco='" + getEndereco() + '\'' +
+                ", cargo='" + cargo + '\'' +
+                ", salario=" + salario +
+                '}';
     }
 }

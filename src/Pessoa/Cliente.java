@@ -1,8 +1,9 @@
 package Pessoa;
+
 public class Cliente extends Pessoa {
+
     private String dataNascimento;
     private String email;
-
 
     public Cliente(String nome, String cpf, String telefone, String endereco, String dataNascimento, String email) {
         super(nome, cpf, telefone, endereco);
@@ -28,6 +29,13 @@ public class Cliente extends Pessoa {
 
     @Override
     public String toString() {
-        return "Cliente{" + "nome='" + getNome() + '\'' + ", cpf='" + getCpf() + '\'' + ", telefone='" + getTelefone() + '\'' + ", endereco='" + getEndereco() + '\'' + ", dataNascimento='" + dataNascimento + '\'' + ", email='" + email + '\'' + '}';
+        return "Cliente{" +
+                "nome='" + getNome() + '\'' +
+                ", cpf='" + getCpf() + '\'' +
+                ", telefone='" + getTelefone() + '\'' +
+                ", endereco='" + getEndereco() + '\'' +
+                ", dataNascimento='" + dataNascimento + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
